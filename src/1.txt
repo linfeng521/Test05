@@ -1,8 +1,6 @@
 <<<<<<< HEAD
 this is test file;
 create some line in this file;
-1
-2
 33
 =======
 this is test file;
