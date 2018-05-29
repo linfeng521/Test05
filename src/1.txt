@@ -1,5 +1,8 @@
 <<<<<<< HEAD
 this is test file;
+create some line in this file
+
 =======
 this is test file;
 >>>>>>> parent of c15bdd7... 增加了一行操作
+create some line
