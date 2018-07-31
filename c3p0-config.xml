@@ -1,0 +1,26 @@
+<c3p0-config>
+	  <default-config>
+	      <property name="driverClass">com.mysql.jdbc.Driver</property>
+	      <property name="jdbcUrl">jdbc:mysql://localhost:3306/test03</property>
+	      <property name="user">root</property>
+	      <property name="password">a123456</property>
+	    <property name="initialPoolSize">5</property>
+	    <property name="maxIdleTime">1</property>
+	    <property name="maxPoolSize">20</property>
+	    <property name="minPoolSize">3</property>
+	    <property name="maxStatements">200</property>
+	  </default-config>
+	
+	  <!-- if you want to use Oracle database -->
+	  <named-config name="oracle"> 
+	    <property name="driverClass">oracle.jdbc.driver.OracleDriver</property>
+	      <property name="jdbcUrl">    jdbc:oracle:thin:@localhost:1521:jdbcdemo</property>
+	      <property name="user">root</property>
+	      <property name="password">root</property>
+	    <property name="initialPoolSize">10</property>
+	    <property name="maxIdleTime">30</property>
+	    <property name="maxPoolSize">50</property>
+	    <property name="minPoolSize">10</property>
+	    <property name="maxStatements">200</property>
+	  </named-config>
+	</c3p0-config>
